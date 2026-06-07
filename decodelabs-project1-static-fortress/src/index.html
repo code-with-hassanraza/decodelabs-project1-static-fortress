@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Hassan Raza — Cloud Security Engineer. BS IT student from Nawabshah, Pakistan. Making the Cloud a Secure and Better Place."/>
+  <title>HASSAN RAZA | Cloud Security Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor"       id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- Page Load Curtain -->
+  <div class="curtain" id="curtain">
+    <div class="curtain-text">HASSAN RAZA</div>
+  </div>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-bar" id="scrollBar"></div>
+
+  <!-- ══════════════ NAV ══════════════ -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <ul class="nav-left">
+        <li><a href="#about"    class="nav-link">ABOUT</a></li>
+        <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+        <li><a href="#skills"   class="nav-link">SKILLS</a></li>
+      </ul>
+
+      <a href="#hero" class="nav-brand">HASSAN·RAZA</a>
+
+      <ul class="nav-right">
+        <li><a href="#education" class="nav-link">EDUCATION</a></li>
+        <li><a href="#contact"   class="nav-link nav-link-cta">CONTACT</a></li>
+      </ul>
+
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true">
+    <button class="mobile-close" id="mobileClose" aria-label="Close menu">✕</button>
+    <ul>
+      <li><a href="#about"     class="m-link">ABOUT</a></li>
+      <li><a href="#projects"  class="m-link">PROJECTS</a></li>
+      <li><a href="#skills"    class="m-link">SKILLS</a></li>
+      <li><a href="#education" class="m-link">EDUCATION</a></li>
+      <li><a href="#contact"   class="m-link">CONTACT</a></li>
+    </ul>
+  </div>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section id="hero" class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-bg-gradient"></div>
+      <div class="hero-bg-lines"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up">NAWABSHAH, PAKISTAN &nbsp;—&nbsp; DECODELABS BATCH 2026</p>
+      <h1 class="hero-title">
+        <span class="hero-title-line reveal-up" data-delay="0.1">HASSAN</span>
+        <span class="hero-title-line hero-title-italic reveal-up" data-delay="0.2">Raza</span>
+      </h1>
+      <p class="hero-role reveal-up" data-delay="0.3">
+        <span id="typingText"></span><span class="type-cursor">|</span>
+      </p>
+      <p class="hero-tagline reveal-up" data-delay="0.35">
+        "Making the Cloud a Secure and Better Place."
+      </p>
+      <p class="hero-desc reveal-up" data-delay="0.4">
+        BS Information Technology · Quaid-e-Awam University, Nawabshah.<br>
+        DecodeLabs Cloud Computing Intern · Google &amp; AWS Certified.
+      </p>
+      <div class="hero-actions reveal-up" data-delay="0.5">
+        <a href="#projects" class="btn btn-outline">EXPLORE WORK</a>
+        <a href="#contact"  class="btn btn-ghost">GET IN TOUCH</a>
+      </div>
+    </div>
+
+    <div class="hero-stats" id="heroStats">
+      <div class="hstat">
+        <span class="hstat-num" data-count="4">0</span>
+        <span class="hstat-label">SEMESTERS</span>
+      </div>
+      <div class="hstat-div"></div>
+      <div class="hstat">
+        <span class="hstat-num" data-count="7">0</span>
+        <span class="hstat-label">MONTHS SECURITY</span>
+      </div>
+      <div class="hstat-div"></div>
+      <div class="hstat">
+        <span class="hstat-num" data-count="3">0</span>
+        <span class="hstat-label">CERTIFICATIONS</span>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ ABOUT ══════════════ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-label">01 · PROFILE</span>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-main reveal-up">
+          <h2 class="section-heading">THE<br><em>ARCHITECT</em><br>OF CLOUD</h2>
+          <div class="about-divider"></div>
+          <p class="about-body">
+            I am Muhammad Hassan Raza — a second-year BS Information Technology student at
+            Quaid-e-Awam University of Engineering, Sciences &amp; Technology, Nawabshah.
+            Seven months ago, I discovered cybersecurity and immediately knew it was my calling.
+          </p>
+          <p class="about-body">
+            I am currently building deep expertise in Cloud Security, mastering AWS and Azure
+            through real-world internship projects. My certified Google Cloud and AWS hands-on
+            experience is already proving that theory and practice are inseparable. My mission
+            is simple: <em>Making the Cloud a Secure and Better Place.</em>
+          </p>
+          <p class="about-body">
+            Strategic vision: achieve mastery in Cloud Security first, then extend into AI
+            Security — positioning myself at the intersection of the two most critical domains
+            in the next two decades of global technology.
+          </p>
+          <a href="#contact" class="btn btn-outline" style="margin-top:40px;">OPEN TO OPPORTUNITIES</a>
+        </div>
+
+        <div class="about-sidebar">
+          <div class="about-card reveal-up" data-delay="0.05">
+            <span class="about-card-label">CURRENT ROLE</span>
+            <h3 class="about-card-title">Cloud Computing<br>Intern</h3>
+            <p class="about-card-sub">DecodeLabs · Batch 2026<br>AWS / Azure Track</p>
+          </div>
+          <div class="about-card reveal-up" data-delay="0.1">
+            <span class="about-card-label">DEGREE</span>
+            <h3 class="about-card-title">BS Information<br>Technology</h3>
+            <p class="about-card-sub">4th Semester · 2nd Year<br>QUEST, Nawabshah</p>
+          </div>
+          <div class="about-card reveal-up" data-delay="0.15">
+            <span class="about-card-label">TARGET ROLE</span>
+            <h3 class="about-card-title">Cloud Security<br>Engineer</h3>
+            <p class="about-card-sub">AWS Security Specialty<br>→ CCSP → CISSP</p>
+          </div>
+          <div class="about-card about-card-accent reveal-up" data-delay="0.2">
+            <span class="about-card-label">STATUS</span>
+            <div class="status-row">
+              <span class="status-dot-pulse"></span>
+              <h3 class="about-card-title" style="margin:0;">Available<br>for Work</h3>
+            </div>
+            <p class="about-card-sub">Remote · Global · Immediate</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ PROJECTS ══════════════ -->
+  <section id="projects" class="section section-dark">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-label">02 · WORK</span>
+        <div class="section-header-row">
+          <h2 class="section-heading-lg">PROJECTS</h2>
+          <span class="section-tag">2026</span>
+        </div>
+        <div class="section-rule"></div>
+      </div>
+
+      <!-- Editorial asymmetric grid -->
+      <div class="projects-grid">
+        <div class="proj-featured reveal-up">
+          <div class="proj-img proj-img-hero">
+            <div class="proj-img-overlay"></div>
+            <div class="proj-img-content"><span class="proj-num">01</span></div>
+          </div>
+          <div class="proj-info">
+            <h3 class="proj-title">The Global Launch</h3>
+            <span class="proj-tag">DECODELABS · AWS S3 · WEEK 1</span>
+          </div>
+        </div>
+
+        <div class="proj-stack">
+          <div class="proj-small reveal-up" data-delay="0.1">
+            <div class="proj-img proj-img-sm proj-img-sm-1">
+              <div class="proj-img-overlay"></div>
+              <div class="proj-img-content"><span class="proj-num">02</span></div>
+            </div>
+            <div class="proj-info proj-info-sm">
+              <h3 class="proj-title-sm">Google Cloud Security</h3>
+              <p class="proj-desc">Skill Badge — Fundamentals implemented.</p>
+            </div>
+          </div>
+          <div class="proj-small reveal-up" data-delay="0.2">
+            <div class="proj-img proj-img-sm proj-img-sm-2">
+              <div class="proj-img-overlay"></div>
+              <div class="proj-img-content"><span class="proj-num">03</span></div>
+            </div>
+            <div class="proj-info proj-info-sm">
+              <h3 class="proj-title-sm">Google Cybersecurity</h3>
+              <p class="proj-desc">Foundations · Coursera certified.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detail cards -->
+      <div class="proj-details">
+        <div class="proj-detail-card reveal-up">
+          <div class="pdc-top">
+            <span class="pdc-num">01</span>
+            <span class="pdc-status pdc-live"><span class="pdc-live-dot"></span>LIVE</span>
+          </div>
+          <h3 class="pdc-title">The Global Launch</h3>
+          <p class="pdc-sub">DecodeLabs Cloud Internship · Week 1 · 2026</p>
+          <p class="pdc-desc">Deployed this portfolio website on AWS S3 with zero servers. Configured IAM bucket policies following the Principle of Least Privilege. Enabled Static Website Hosting with custom index and 404 documents — globally accessible at 99.999999999% durability, near-zero cost.</p>
+          <div class="pdc-tags">
+            <span>AWS S3</span><span>Bucket Policy</span>
+            <span>IAM</span><span>Static Hosting</span><span>HTML/CSS/JS</span>
+          </div>
+          <a href="#" class="pdc-link">VIEW PROJECT <span class="arrow">→</span></a>
+        </div>
+
+        <div class="proj-detail-card reveal-up" data-delay="0.08">
+          <div class="pdc-top">
+            <span class="pdc-num">02</span>
+            <span class="pdc-status pdc-badge">SKILL BADGE</span>
+          </div>
+          <h3 class="pdc-title">Cloud Security Fundamentals</h3>
+          <p class="pdc-sub">Google Cloud · Verified on Credly</p>
+          <p class="pdc-desc">Earned the "Implement Cloud Security Fundamentals on Google Cloud" Skill Badge — demonstrating hands-on ability to configure IAM, manage service accounts, implement VPC controls, and apply security best practices on GCP. Verified credential on Credly.</p>
+          <div class="pdc-tags">
+            <span>Google Cloud</span><span>IAM</span>
+            <span>VPC Security</span><span>GCP</span><span>Credly</span>
+          </div>
+          <a href="https://www.credly.com/users/muhammad_hassan_raza" target="_blank" rel="noopener" class="pdc-link">VIEW BADGE <span class="arrow">→</span></a>
+        </div>
+
+        <div class="proj-detail-card reveal-up" data-delay="0.16">
+          <div class="pdc-top">
+            <span class="pdc-num">03</span>
+            <span class="pdc-status">CERTIFIED</span>
+          </div>
+          <h3 class="pdc-title">Google Cybersecurity</h3>
+          <p class="pdc-sub">Google / Coursera Professional Certificate</p>
+          <p class="pdc-desc">Completed Course 1 — Foundations of Cybersecurity. Covered CIA triad, threat modeling, security operations lifecycle, and the role of security professionals in defending modern organizations from evolving threats.</p>
+          <div class="pdc-tags">
+            <span>CIA Triad</span><span>Threat Modeling</span>
+            <span>Coursera</span><span>Google</span>
+          </div>
+          <a href="https://www.credly.com/users/muhammad_hassan_raza" target="_blank" rel="noopener" class="pdc-link">VIEW CERT <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ SKILLS ══════════════ -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-label">03 · ARSENAL</span>
+        <h2 class="section-heading-center">TECHNICAL<br><em>MASTERY</em></h2>
+        <div class="section-rule-center"></div>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="skills-bento">
+        <!-- Hero skill card -->
+        <div class="skill-hero reveal-up">
+          <div class="skill-hero-inner">
+            <span class="skill-hero-label">PRIMARY PLATFORM</span>
+            <h3 class="skill-hero-title">Cloud<br>Security</h3>
+            <p class="skill-hero-desc">Securing cloud-native infrastructure across AWS, Azure &amp; GCP — from IAM policy architecture to hands-on static website hardening and bucket policy design.</p>
+            <div class="skill-bars">
+              <div class="sbar-row">
+                <span class="sbar-name">AWS S3 / IAM</span>
+                <span class="sbar-pct">82%</span>
+              </div>
+              <div class="sbar-track"><div class="sbar-fill" data-w="82"></div></div>
+
+              <div class="sbar-row">
+                <span class="sbar-name">Google Cloud / GCP</span>
+                <span class="sbar-pct">75%</span>
+              </div>
+              <div class="sbar-track"><div class="sbar-fill" data-w="75"></div></div>
+
+              <div class="sbar-row">
+                <span class="sbar-name">Azure Blob / Entra</span>
+                <span class="sbar-pct">70%</span>
+              </div>
+              <div class="sbar-track"><div class="sbar-fill" data-w="70"></div></div>
+
+              <div class="sbar-row">
+                <span class="sbar-name">Cloud Architecture</span>
+                <span class="sbar-pct">65%</span>
+              </div>
+              <div class="sbar-track"><div class="sbar-fill" data-w="65"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right grid -->
+        <div class="skills-right">
+          <div class="skill-card reveal-up" data-delay="0.05">
+            <span class="sk-label">NETWORKING</span>
+            <h4 class="sk-title">Computer<br>Networks</h4>
+            <div class="sk-pct-ring">85</div>
+            <div class="sk-tags"><span>TCP/IP</span><span>DNS</span><span>HTTP/S</span><span>VPN</span></div>
+          </div>
+          <div class="skill-card reveal-up" data-delay="0.1">
+            <span class="sk-label">SYSTEMS</span>
+            <h4 class="sk-title">Operating<br>Systems</h4>
+            <div class="sk-pct-ring">80</div>
+            <div class="sk-tags"><span>Linux</span><span>Bash</span><span>Windows</span></div>
+          </div>
+          <div class="skill-card reveal-up" data-delay="0.15">
+            <span class="sk-label">LANGUAGES</span>
+            <h4 class="sk-title">Programming</h4>
+            <div class="sk-pct-ring">78</div>
+            <div class="sk-tags"><span>Python</span><span>C++</span><span>C</span><span>SQL</span></div>
+          </div>
+          <div class="skill-card skill-card-accent reveal-up" data-delay="0.2">
+            <span class="sk-label">SECURITY</span>
+            <h4 class="sk-title">Cybersecurity<br>Foundations</h4>
+            <div class="sk-pct-ring sk-pct-accent">78</div>
+            <div class="sk-tags"><span>CIA Triad</span><span>IAM</span><span>Zero Trust</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tech cloud -->
+      <div class="tech-cloud reveal-up">
+        <span class="section-label" style="display:block;margin-bottom:24px;">FULL STACK</span>
+        <div class="tc-tags">
+          <span class="tc-tag">AWS S3</span>
+          <span class="tc-tag">Google Cloud</span>
+          <span class="tc-tag">Azure Blob</span>
+          <span class="tc-tag">IAM Policies</span>
+          <span class="tc-tag">Bucket Policy</span>
+          <span class="tc-tag">Static Hosting</span>
+          <span class="tc-tag">VPC Security</span>
+          <span class="tc-tag">Linux CLI</span>
+          <span class="tc-tag">Bash Scripting</span>
+          <span class="tc-tag">Python</span>
+          <span class="tc-tag">C++</span>
+          <span class="tc-tag">Zero Trust</span>
+          <span class="tc-tag">SIEM Basics</span>
+          <span class="tc-tag">SQL</span>
+          <span class="tc-tag">DSA</span>
+          <span class="tc-tag">REST APIs</span>
+          <span class="tc-tag">Git / GitHub</span>
+          <span class="tc-tag">CloudGoat</span>
+          <span class="tc-tag">Terraform</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ EDUCATION ══════════════ -->
+  <section id="education" class="section section-dark">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-label">04 · BACKGROUND</span>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="edu-grid">
+        <div class="edu-main reveal-up">
+          <h2 class="section-heading">ACADEMIC<br><em>FORMATION</em></h2>
+        </div>
+
+        <div class="edu-content">
+          <div class="edu-block reveal-up">
+            <div class="edu-block-header">
+              <div>
+                <span class="edu-year">2024 — PRESENT</span>
+                <h3 class="edu-title">BS Information Technology</h3>
+                <p class="edu-school">Quaid-e-Awam University of Engineering,<br>Sciences &amp; Technology, Nawabshah</p>
+              </div>
+              <span class="edu-badge">2ND YEAR</span>
+            </div>
+            <div class="edu-rule"></div>
+            <div class="edu-semesters">
+              <div class="edu-sem">
+                <div class="edu-sem-label">SEM 01</div>
+                <div class="edu-sem-tags">
+                  <span>Computer Fundamentals</span>
+                  <span>C Programming</span>
+                </div>
+              </div>
+              <div class="edu-sem">
+                <div class="edu-sem-label">SEM 02</div>
+                <div class="edu-sem-tags">
+                  <span>OOP C++</span><span>Digital Logic</span>
+                  <span>Calculus</span><span>Accounting</span>
+                </div>
+              </div>
+              <div class="edu-sem">
+                <div class="edu-sem-label">SEM 03</div>
+                <div class="edu-sem-tags">
+                  <span>Computer Networks</span><span>Operating Systems</span>
+                  <span>DSA · Python</span><span>Architecture</span>
+                </div>
+              </div>
+              <div class="edu-sem edu-sem-active">
+                <div class="edu-sem-label">SEM 04 <span class="edu-active-tag">CURRENT</span></div>
+                <div class="edu-sem-tags">
+                  <span>Cloud Computing</span><span>Database Systems</span>
+                  <span>Software Engineering</span><span>Statistics</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-block reveal-up" data-delay="0.1">
+            <div class="edu-block-header">
+              <div>
+                <span class="edu-year">2024 — ONGOING</span>
+                <h3 class="edu-title">Self-Directed Cybersecurity</h3>
+                <p class="edu-school">7 Months of Structured Learning</p>
+              </div>
+              <span class="edu-badge edu-badge-accent">SECURITY</span>
+            </div>
+            <div class="edu-rule"></div>
+            <div class="self-learn-list">
+              <div class="sl-row">
+                <span class="sl-status sl-done">EARNED</span>
+                <span>Implement Cloud Security Fundamentals on Google Cloud — Skill Badge (Credly Verified)</span>
+              </div>
+              <div class="sl-row">
+                <span class="sl-status sl-done">COMPLETED</span>
+                <span>Google Cybersecurity Certificate — Foundations of Cybersecurity (Coursera)</span>
+              </div>
+              <div class="sl-row">
+                <span class="sl-status sl-done">COMPLETED</span>
+                <span>TryHackMe Pre-Security Learning Path</span>
+              </div>
+              <div class="sl-row">
+                <span class="sl-status sl-active">ACTIVE</span>
+                <span>DecodeLabs Cloud Computing Internship — AWS / Azure Track · Batch 2026</span>
+              </div>
+              <div class="sl-row">
+                <span class="sl-status sl-next">NEXT</span>
+                <span>CompTIA Security+ Examination Preparation</span>
+              </div>
+              <div class="sl-row">
+                <span class="sl-status sl-next">NEXT</span>
+                <span>AWS Solutions Architect Associate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="cert-row reveal-up">
+        <span class="section-label" style="display:block;margin-bottom:32px;">CERTIFICATIONS &amp; BADGES</span>
+        <div class="cert-cards">
+          <div class="cert-card cert-card-done">
+            <span class="cert-icon">✦</span>
+            <div>
+              <div class="cert-name">Cloud Security Fundamentals</div>
+              <div class="cert-org">Google Cloud · Credly Verified</div>
+              <div class="cert-status-tag">EARNED</div>
+            </div>
+          </div>
+          <div class="cert-card cert-card-done">
+            <span class="cert-icon">✦</span>
+            <div>
+              <div class="cert-name">Foundations of Cybersecurity</div>
+              <div class="cert-org">Google / Coursera</div>
+              <div class="cert-status-tag">EARNED</div>
+            </div>
+          </div>
+          <div class="cert-card">
+            <span class="cert-icon">◇</span>
+            <div>
+              <div class="cert-name">CompTIA Security+</div>
+              <div class="cert-org">CompTIA</div>
+              <div class="cert-status-tag cert-target">TARGET 2026</div>
+            </div>
+          </div>
+          <div class="cert-card">
+            <span class="cert-icon">◇</span>
+            <div>
+              <div class="cert-name">AWS Security Specialty</div>
+              <div class="cert-org">Amazon Web Services</div>
+              <div class="cert-status-tag cert-target">TARGET 2027</div>
+            </div>
+          </div>
+          <div class="cert-card">
+            <span class="cert-icon">◇</span>
+            <div>
+              <div class="cert-name">CCSP</div>
+              <div class="cert-org">ISC²</div>
+              <div class="cert-status-tag cert-target">TARGET 2028</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACT ══════════════ -->
+  <section id="contact" class="section section-contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-left reveal-up">
+          <span class="section-label">05 · CONTACT</span>
+          <h2 class="contact-heading">LET'S<br><em>COLLABORATE</em></h2>
+          <p class="contact-sub">Open to cloud security internships, entry-level roles, and remote positions globally. Available immediately.</p>
+          <a href="mailto:heyyy.hassan0@gmail.com" class="btn btn-bone">SEND MESSAGE</a>
+        </div>
+
+        <div class="contact-right">
+          <div class="contact-links">
+            <a href="mailto:heyyy.hassan0@gmail.com" class="contact-link reveal-up">
+              <span class="cl-label">EMAIL</span>
+              <span class="cl-value">heyyy.hassan0@gmail.com</span>
+              <span class="cl-arrow">→</span>
+            </a>
+            <a href="https://www.linkedin.com/in/muhammad-hassan-raza-5a2749322" target="_blank" rel="noopener" class="contact-link reveal-up" data-delay="0.06">
+              <span class="cl-label">LINKEDIN</span>
+              <span class="cl-value">muhammad-hassan-raza</span>
+              <span class="cl-arrow">→</span>
+            </a>
+            <a href="https://github.com/code-with-hassanraza/" target="_blank" rel="noopener" class="contact-link reveal-up" data-delay="0.12">
+              <span class="cl-label">GITHUB</span>
+              <span class="cl-value">code-with-hassanraza</span>
+              <span class="cl-arrow">→</span>
+            </a>
+            <a href="https://www.credly.com/users/muhammad_hassan_raza" target="_blank" rel="noopener" class="contact-link reveal-up" data-delay="0.18">
+              <span class="cl-label">CREDLY</span>
+              <span class="cl-value">muhammad_hassan_raza</span>
+              <span class="cl-arrow">→</span>
+            </a>
+            <div class="contact-link reveal-up" data-delay="0.24">
+              <span class="cl-label">LOCATION</span>
+              <span class="cl-value">Nawabshah, Sindh, Pakistan</span>
+              <span class="cl-arrow">—</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-brand">HASSAN·RAZA</span>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#education">EDUCATION</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+      <span class="footer-copy">© 2026 HASSAN RAZA. HOSTED ON AWS S3.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
