@@ -20,7 +20,7 @@ zero server management.
 
 ## 🎯 Mission Accomplished
 - ✅ Created and configured an AWS S3 bucket for static website hosting
-- ✅ Uploaded HTML, CSS, and JavaScript source files
+- ✅ Uploaded HTML source files
 - ✅ Configured bucket policy for public read access
 - ✅ Enabled static website hosting with index.html as the entry point
 - ✅ Created a CloudFront distribution pointing to the S3 origin
