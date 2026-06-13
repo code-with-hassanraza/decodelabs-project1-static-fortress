@@ -36,21 +36,21 @@ User Browser
      │  HTTPS Request
      ▼
 ┌─────────────────────────────────────────────┐
-│         AWS CloudFront (CDN)                        │
-│         xxxx.cloudfront.net                         │
-│         Global Edge Locations                       │
-│         SSL/TLS Encryption (HTTPS)                  │
-│         Caching at the Edge                         │
+│         AWS CloudFront (CDN)                │
+│         xxxx.cloudfront.net                 │
+│         Global Edge Locations               │
+│         SSL/TLS Encryption (HTTPS)          │
+│         Caching at the Edge                 │
 └─────────────────┬───────────────────────────┘
                   │  Origin Request (on cache miss)
                   ▼
 ┌─────────────────────────────────────────────┐
-│         AWS S3 Bucket                               │
-│         Static Website Hosting                      │
-│                                                     │
-│   ├── index.html   (Entry Point)                   │
-│   ├── style.css    (Styling)                       │
-│   └── script.js    (Logic)                         │
+│         AWS S3 Bucket                       │
+│         Static Website Hosting              │
+│                                             │
+│   ├── index.html   (Entry Point)            │
+│   ├── style.css    (Styling)                │
+│   └── script.js    (Logic)                  │
 └─────────────────────────────────────────────┘
 ```
 
